@@ -3,10 +3,6 @@
 An end-to-end data engineering project that processes e-commerce data using **Databricks, PySpark, Apache Spark, Delta Lake, and SQL**. This project implements the Medallion Architecture (Bronze, Silver, and Gold) to ingest, transform, clean, and organize raw data into structured, analytics-ready datasets within Databricks.
 
 
-## Architecture
-<img width="1536" height="1024" alt="E-Commerce Medallion Data Pipeline" src="https://github.com/user-attachments/assets/39355ee1-9c1a-46fd-80d3-08da1e016459" />
-
-
 ## Tech Stack
 
 | Category | Technologies |
@@ -17,6 +13,9 @@ An end-to-end data engineering project that processes e-commerce data using **Da
 | Data Architecture | Medallion Architecture |
 | Data Modeling | Fact Tables, Dimension Tables, Star Schema |
 | Development Environment | Databricks Notebooks |
+
+## Architecture Diagram
+<img width="1536" height="1024" alt="E-Commerce Medallion Data Pipeline" src="https://github.com/user-attachments/assets/39355ee1-9c1a-46fd-80d3-08da1e016459" />
 
 ## Dashboard
 <img width="1498" height="840" alt="Screenshot 2026-10-25 at 11 18 16 PM" src="https://github.com/user-attachments/assets/5e7ea37b-ca14-4a0a-bd08-cc20a89a97e2" />
