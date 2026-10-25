@@ -4,36 +4,8 @@ An end-to-end data engineering project that processes e-commerce data using **Da
 
 
 ## Architecture
+<img width="1536" height="1024" alt="E-Commerce Medallion Data Pipeline" src="https://github.com/user-attachments/assets/39355ee1-9c1a-46fd-80d3-08da1e016459" />
 
-The pipeline follows a layered approach to transform raw e-commerce data into structured datasets.
-
-```text
-         E-Commerce Source Data
-                   |
-                   ▼
-         Data Ingestion
-                   |
-                   ▼
-         ┌──────────────────┐
-         │  Bronze Layer    │
-         │    Raw Data      │
-         └────────┬─────────┘
-                  ▼
-         ┌──────────────────┐
-         │  Silver Layer    │
-         │ Cleaned &         │
-         │ Transformed Data │
-         └────────┬─────────┘
-                  ▼
-         ┌──────────────────┐
-         │   Gold Layer     │
-         │ Fact & Dimension │
-         │ Tables           │
-         └────────┬─────────┘
-                  ▼
-         Analytical Queries
-         in Databricks SQL
-```
 
 ## Tech Stack
 
