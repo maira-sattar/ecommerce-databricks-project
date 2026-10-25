@@ -18,6 +18,10 @@ An end-to-end data engineering project that processes e-commerce data using **Da
 | Data Modeling | Fact Tables, Dimension Tables, Star Schema |
 | Development Environment | Databricks Notebooks |
 
+## Dashboard
+<img width="1498" height="840" alt="Screenshot 2026-10-25 at 11 18 16 PM" src="https://github.com/user-attachments/assets/5e7ea37b-ca14-4a0a-bd08-cc20a89a97e2" />
+
+
 ## Project Structure
 
 ```text
