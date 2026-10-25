@@ -2,19 +2,8 @@
 
 An end-to-end data engineering project that processes e-commerce data using **Databricks, PySpark, Apache Spark, Delta Lake, and SQL**. This project implements the Medallion Architecture (Bronze, Silver, and Gold) to ingest, transform, clean, and organize raw data into structured, analytics-ready datasets within Databricks.
 
-## 📌 Project Overview
 
-This project demonstrates the implementation of a data engineering pipeline using Databricks and the Medallion Architecture.
-
-The pipeline processes e-commerce data through three layers:
-
-- **Bronze Layer:** Ingests and stores raw source data.
-- **Silver Layer:** Cleans, standardizes, validates, and transforms the ingested data.
-- **Gold Layer:** Produces business-ready fact and dimension tables for analytical queries.
-
-The project uses dedicated notebooks for dimension and fact table processing, along with setup notebooks for configuring the data environment and catalog structure.
-
-## 🏗️ Architecture
+## Architecture
 
 The pipeline follows a layered approach to transform raw e-commerce data into structured datasets.
 
@@ -46,7 +35,7 @@ The pipeline follows a layered approach to transform raw e-commerce data into st
          in Databricks SQL
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -56,9 +45,8 @@ The pipeline follows a layered approach to transform raw e-commerce data into st
 | Data Architecture | Medallion Architecture |
 | Data Modeling | Fact Tables, Dimension Tables, Star Schema |
 | Development Environment | Databricks Notebooks |
-| Version Control | Git, GitHub |
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ecommerce-databricks-project/
@@ -73,7 +61,7 @@ ecommerce-databricks-project/
 └── README.md                   # Project documentation
 ```
 
-## 🔄 Pipeline Workflow
+## Pipeline Workflow
 
 ### 1. Databricks Environment Setup
 
@@ -175,19 +163,7 @@ This project was completed as a hands-on learning project with guidance from the
 - **Learning resource:** [Codebasics on YouTube](https://www.youtube.com/@codebasics)
 - The tutorial served as a learning reference for understanding the project workflow and implementing the data engineering concepts in Databricks.
 
-The project provided practical experience with PySpark, Delta Lake, data ingestion, layered data transformations, catalog configuration, and fact and dimension table processing.
-
 *Please refer to the original tutorial for its specific instructions and learning materials.*
-
-## 🎯 Key Learning Outcomes
-
-- Implementing the Medallion Architecture in Databricks.
-- Ingesting and transforming data with PySpark.
-- Working with Delta tables and layered data processing.
-- Cleaning and validating datasets.
-- Building fact and dimension tables for analytical use.
-- Managing catalogs, schemas, and tables in Databricks.
-- Querying processed datasets using SQL.
 
 ## ⭐ Support
 
